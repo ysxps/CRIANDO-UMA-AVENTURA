@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Relíquia Perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/23865028-desenho-animado-biblioteca-interior-com-estante-de-livros-fundo-gratis-vetor.jpg" alt="">
+            <p>Em uma antiga biblioteca, você encontra um manuscrito misterioso que fala sobre uma relíquia mágica perdida. O manuscrito contém pistas que levam a vários locais ao redor do mundo. Você decide seguir essas pistas para encontrar a relíquia!</p>
+            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
+            <button class="btn-proximo" data-proximo="2">Pernambuco</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Sua jornada começa no Rio de Janeiro. O manuscrito menciona que a primeira pista está escondida em um antigo monumento no Pico da Tijuca.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em Pernambuco, o manuscrito indica que a próxima pista está escondida em um dos pontos turísticos históricos de Olinda. Qual você escolhe investigar?</p>
+            <button class="btn-proximo" data-proximo="5">Explorar as igrejas antigas</button>
+            <button class="btn-proximo" data-proximo="6">Visitar os museus locais</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No topo do Pico da Tijuca, você encontra uma inscrição antiga que indica que a próxima pista está localizada na Amazônia.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para a Amazônia</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="https://thumbs.dreamstime.com/z/um-garoto-muito-cansado-voltando-para-casa-desenho-animado-menino-com-mochila-andando-de-volta-181733919.jpg" alt="imagem voltando para casa e desistindo da aventura">
+            <p>Você decide que a busca é muito arriscada e retorna para casa. No entanto, você se pergunta se teria encontrado algo incrível.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Nas igrejas de Olinda, você encontra um mapa escondido atrás de um altar que indica que a próxima pista está na Amazônia.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a Amazônia</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Visitando os museus locais, você encontra uma coleção de artefatos antigos, mas não há pistas sobre a relíquia mágica.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Na Amazônia, a busca se intensifica. O manuscrito menciona um rio bifurcado que leva à próxima pista.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta às igrejas de Olinda, você encontra o mapa que leva à Amazônia. Prepare-se para a próxima fase!</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para a Amazônia</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O rio à esquerda leva você a uma cachoeira secreta com inscrições antigas que revelam a localização da relíquia.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a relíquia perdida</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O rio à direita leva a uma área densa e pantanosa. Apesar da beleza do lugar, não há sinais da relíquia aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="https://png.pngtree.com/png-vector/20230808/ourlarge/pngtree-waterfall-clipart-cartoon-waterfall-and-trees-isolated-on-white-vector-png-image_6827675.png" alt="encontrando a relíquia mágica na Amazônia">
+            <p>Você encontra a relíquia mágica escondida na cachoeira secreta. Com a relíquia em mãos, você decide protegê-la e estudá-la para entender seus poderes.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira secreta e a relíquia mágica.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a relíquia perdida</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
